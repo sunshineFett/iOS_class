@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AB595FC1FF9BF590003AD0C /* StormtrooperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB595FB1FF9BF590003AD0C /* StormtrooperClass.swift */; };
+		4AE4676E1FF7ED80002B5E4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE4676D1FF7ED80002B5E4F /* AppDelegate.swift */; };
+		4AE467731FF7ED80002B5E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE467711FF7ED80002B5E4F /* Main.storyboard */; };
+		4AE467751FF7ED80002B5E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE467741FF7ED80002B5E4F /* Assets.xcassets */; };
+		4AE467781FF7ED80002B5E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE467761FF7ED80002B5E4F /* LaunchScreen.storyboard */; };
+		4AE467801FF7EF1B002B5E4F /* StromtrooperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE4677F1FF7EF1B002B5E4F /* StromtrooperViewController.swift */; };
+		4AE467821FF7F288002B5E4F /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE467811FF7F288002B5E4F /* CreditsViewController.swift */; };
+		4AE467841FF99EB3002B5E4F /* StormtrooperTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE467831FF99EB3002B5E4F /* StormtrooperTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AB595FB1FF9BF590003AD0C /* StormtrooperClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StormtrooperClass.swift; sourceTree = "<group>"; };
+		4AE4676A1FF7ED80002B5E4F /* TrooperPrt2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrooperPrt2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE4676D1FF7ED80002B5E4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AE467721FF7ED80002B5E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AE467741FF7ED80002B5E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AE467771FF7ED80002B5E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AE467791FF7ED80002B5E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE4677F1FF7EF1B002B5E4F /* StromtrooperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StromtrooperViewController.swift; sourceTree = "<group>"; };
+		4AE467811FF7F288002B5E4F /* CreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
+		4AE467831FF99EB3002B5E4F /* StormtrooperTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StormtrooperTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AE467671FF7ED80002B5E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AE467611FF7ED80002B5E4F = {
+			isa = PBXGroup;
+			children = (
+				4AE4676C1FF7ED80002B5E4F /* StormtroopersAppPart2 */,
+				4AE4676B1FF7ED80002B5E4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AE4676B1FF7ED80002B5E4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AE4676A1FF7ED80002B5E4F /* TrooperPrt2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AE4676C1FF7ED80002B5E4F /* StormtroopersAppPart2 */ = {
+			isa = PBXGroup;
+			children = (
+				4AE4676D1FF7ED80002B5E4F /* AppDelegate.swift */,
+				4AE467711FF7ED80002B5E4F /* Main.storyboard */,
+				4AE467741FF7ED80002B5E4F /* Assets.xcassets */,
+				4AE467761FF7ED80002B5E4F /* LaunchScreen.storyboard */,
+				4AE467791FF7ED80002B5E4F /* Info.plist */,
+				4AE4677F1FF7EF1B002B5E4F /* StromtrooperViewController.swift */,
+				4AE467811FF7F288002B5E4F /* CreditsViewController.swift */,
+				4AE467831FF99EB3002B5E4F /* StormtrooperTableViewController.swift */,
+				4AB595FB1FF9BF590003AD0C /* StormtrooperClass.swift */,
+			);
+			path = StormtroopersAppPart2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AE467691FF7ED80002B5E4F /* StormtroopersAppPart2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AE4677C1FF7ED80002B5E4F /* Build configuration list for PBXNativeTarget "StormtroopersAppPart2" */;
+			buildPhases = (
+				4AE467661FF7ED80002B5E4F /* Sources */,
+				4AE467671FF7ED80002B5E4F /* Frameworks */,
+				4AE467681FF7ED80002B5E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StormtroopersAppPart2;
+			productName = StormtroopersAppPart2;
+			productReference = 4AE4676A1FF7ED80002B5E4F /* TrooperPrt2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AE467621FF7ED80002B5E4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Tampa Hackerspace";
+				TargetAttributes = {
+					4AE467691FF7ED80002B5E4F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = N5JHFXE47F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4AE467651FF7ED80002B5E4F /* Build configuration list for PBXProject "StormtroopersAppPart2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AE467611FF7ED80002B5E4F;
+			productRefGroup = 4AE4676B1FF7ED80002B5E4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AE467691FF7ED80002B5E4F /* StormtroopersAppPart2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AE467681FF7ED80002B5E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE467781FF7ED80002B5E4F /* LaunchScreen.storyboard in Resources */,
+				4AE467751FF7ED80002B5E4F /* Assets.xcassets in Resources */,
+				4AE467731FF7ED80002B5E4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AE467661FF7ED80002B5E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE467801FF7EF1B002B5E4F /* StromtrooperViewController.swift in Sources */,
+				4AE467821FF7F288002B5E4F /* CreditsViewController.swift in Sources */,
+				4AE4676E1FF7ED80002B5E4F /* AppDelegate.swift in Sources */,
+				4AE467841FF99EB3002B5E4F /* StormtrooperTableViewController.swift in Sources */,
+				4AB595FC1FF9BF590003AD0C /* StormtrooperClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AE467711FF7ED80002B5E4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AE467721FF7ED80002B5E4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AE467761FF7ED80002B5E4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AE467771FF7ED80002B5E4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AE4677A1FF7ED80002B5E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AE4677B1FF7ED80002B5E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AE4677D1FF7ED80002B5E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N5JHFXE47F;
+				INFOPLIST_FILE = StormtroopersAppPart2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tampahackerspace.app.StormtroopersAppPart2;
+				PRODUCT_NAME = TrooperPrt2;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4AE4677E1FF7ED80002B5E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N5JHFXE47F;
+				INFOPLIST_FILE = StormtroopersAppPart2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tampahackerspace.app.StormtroopersAppPart2;
+				PRODUCT_NAME = TrooperPrt2;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AE467651FF7ED80002B5E4F /* Build configuration list for PBXProject "StormtroopersAppPart2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE4677A1FF7ED80002B5E4F /* Debug */,
+				4AE4677B1FF7ED80002B5E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AE4677C1FF7ED80002B5E4F /* Build configuration list for PBXNativeTarget "StormtroopersAppPart2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE4677D1FF7ED80002B5E4F /* Debug */,
+				4AE4677E1FF7ED80002B5E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AE467621FF7ED80002B5E4F /* Project object */;
+}
